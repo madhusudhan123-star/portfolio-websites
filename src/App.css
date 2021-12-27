@@ -1,0 +1,206 @@
+body {
+  background-color: black;
+}
+
+/* ////////////////////////////////////////////////Icone////////////////////////////////////////////////////////////// */
+.icon {
+  position: absolute;
+  width: 125px;
+  height: 100px;
+  position: absolute;
+  top: 1%;
+}
+#tsparticles {
+  width: auto;
+  height: 700px;
+}
+
+/* ///////////////////////////////////////////////////HomePage//////////////////////////////////////////////////////// */
+.frontdes {
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  width: auto;
+  height: 30px;
+}
+.name {
+  font-size: 5rem;
+  font-family: "Pushster", cursive;
+}
+.ocupation {
+  font-size: 3rem;
+  font-family: "Pushster", cursive;
+}
+
+/* ///////////////////////////////////////////////////////////////////About Page///////////////////////*/
+.about {
+  position: absolutes;
+  /* border: 3px solid azure; */
+  width: auto;
+  height: 500px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.abouthead {
+  font-family: "Roboto Mono", monospace;
+  margin: 250px 0px 0px 0px;
+  font-size: 9rem;
+  width: 100px;
+  height: auto;
+  color: #1b1b1b;
+}
+.messageabout {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.line {
+  width: auto;
+  margin-top: 170px;
+  margin-bottom: 100px;
+  border-bottom: 5px solid beige;
+  height: 1px;
+}
+
+/* ///////////////////////////////////////////////ProjectPage/////////////////////////////////*/
+
+.Project {
+  /* border: 3px solid blanchedalmond; */
+  width: auto;
+  height: 600px;
+}
+
+.headname {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3rem;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.three {
+  width: auto;
+  /* border: 3px solid blanchedalmond; */
+  height: 150px;
+  margin: 100px 10px 67px 10px;
+  color: aliceblue;
+}
+.project1 {
+  display: flex;
+}
+.project2 {
+  display: flex;
+}
+.project3 {
+  display: flex;
+}
+
+.img {
+  width: 224px;
+  height: 148px;
+  border-radius: 30px;
+}
+.head {
+  font-family: "Roboto Mono", monospace;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.details {
+  font-size: 25px;
+  margin-top: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: space-around;
+}
+.morebutton {
+  border: none;
+  width: 161px;
+  height: 58px;
+  border-radius: 66px;
+  font-size: 18px;
+  background-color: #f30505;
+  color: #fbfbfb;
+  margin-top: 30px;
+}
+.explore {
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #deed3c;
+}
+
+/* ///////////////////////////////////////////////Contact///////////////////////////////////////////////////////////// */
+
+.contact {
+  width: auto;
+  height: 550px;
+  text-align: center;
+}
+.contact_head {
+  margin-top: 450px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3rem;
+}
+.contact_name {
+  color: #fbfbfb;
+  font-family: "Roboto Mono", monospace;
+}
+.contact_email {
+  color: #fbfbfb;
+  font-family: "Roboto Mono", monospace;
+}
+.contact_input {
+  width: 297px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 35px;
+}
+
+.contact_input1 {
+  width: 380px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+.contact_submit {
+  margin-top: 20px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 24px;
+  background-color: #ff760a;
+}
+
+.github {
+  margin-top: 100px;
+  border: none;
+  background-color: white;
+  width: 81px;
+  height: 82px;
+  border-radius: 70px;
+}
